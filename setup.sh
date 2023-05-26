@@ -15,6 +15,7 @@ brew update
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
+brew tap homebrew/cask-versions
 brew bundle --file ./Brewfile
 
 # Symlinks dotfiles to ~/ 
