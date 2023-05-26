@@ -28,6 +28,13 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 ###############################################################################
+# Calendar                                                                    #
+###############################################################################
+
+# Week starts on monday
+defaults write com.apple.iCal "first day of week" -int 1
+
+###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
