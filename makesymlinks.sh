@@ -2,7 +2,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="gitconfig gitignore zshrc p10k.zsh"
+files="gitconfig gitignore zshrc p10k.zsh emacs"
 
 # Create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
