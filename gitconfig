@@ -1,0 +1,20 @@
+[user]
+	name = Adam Ratcliffe
+	email = adam.ratcliffe@tomtom.com
+[core]
+	sshCommand = "ssh -i ~/.ssh/tomtom"
+[merge]
+	tool = opendiff
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+[mergetool]
+	keepBackup = false
