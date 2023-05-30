@@ -1,6 +1,6 @@
 # Dotfiles
 
-A collection of dotfiles used to setup a new Mac, configuring system defaults and the shell, and installing apps from brew and the Mac App Store.
+A collection of dotfiles used to setup a new Mac, configuring system defaults and the shell, and installing apps from brew and the Mac App Store. Inspired by [Getting started with dotfiles](https://driesvints.com/blog/getting-started-with-dotfiles/).
 
 ## Usage
 
@@ -11,6 +11,6 @@ A collection of dotfiles used to setup a new Mac, configuring system defaults an
   ```bash
   git clone github.com/AdamRatcliffe-TomTom/dotfiles.git
   ```
-4. Run the `setup.sh` script.
+4. Run the `setup.sh` script. You'll be prompted for the adminstrator password if not already signed in as administrator.
 5. Restart your computer.
 
