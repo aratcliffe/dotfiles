@@ -21,6 +21,9 @@ brew tap homebrew/bundle
 brew tap homebrew/cask-versions
 brew bundle --file ./Brewfile
 
+# Symlink brew-installed Java to the system folder
+ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+
 # Symlinks dotfiles to ~/ 
 source ./makesymlinks.sh
 
