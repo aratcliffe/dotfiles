@@ -3,6 +3,7 @@
 	email = adam.ratcliffe@tomtom.com
 [core]
 	sshCommand = "ssh -i ~/.ssh/tomtom"
+	hooksPath = /Users/adam/.git/hooks
 [merge]
 	tool = opendiff
 [filter "lfs"]

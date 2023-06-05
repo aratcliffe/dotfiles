@@ -14,6 +14,7 @@ brew "d12frosted/emacs-plus/emacs-plus@29", args: ["with-native-comp"]
 brew "romkatv/powerlevel10k/powerlevel10k"
 brew "git-lfs"
 brew "java"
+brew "gitguardian/tap/ggshield"
 
 # Apps
 
