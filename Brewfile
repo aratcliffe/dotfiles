@@ -15,6 +15,7 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 brew "git-lfs"
 brew "java"
 brew "gitguardian/tap/ggshield"
+brew "git-filter-repo"
 
 # Apps
 
