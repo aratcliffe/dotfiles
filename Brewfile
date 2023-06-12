@@ -16,6 +16,8 @@ brew "git-lfs"
 brew "java"
 brew "gitguardian/tap/ggshield"
 brew "git-filter-repo"
+brew "github"
+brew "gh"
 
 # Apps
 

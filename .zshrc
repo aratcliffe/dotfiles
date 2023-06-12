@@ -8,6 +8,7 @@ alias less='less -i'
 
 # Exported variables
 export EDITOR=emacs
+export PATH=$PATH:~/Library/Python/3.9/bin
 
 # p10k
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
@@ -21,3 +22,4 @@ iterm_tab_title() {
   echo -ne "\e]0;${PWD##*/}\a"
 }
 add-zsh-hook precmd iterm_tab_title
+
