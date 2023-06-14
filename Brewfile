@@ -18,6 +18,7 @@ brew "gitguardian/tap/ggshield"
 brew "git-filter-repo"
 brew "github"
 brew "gh"
+brew "n"
 
 # Apps
 

@@ -8,7 +8,8 @@ alias less='less -i'
 
 # Exported variables
 export EDITOR=emacs
-export PATH=$PATH:~/Library/Python/3.9/bin
+export N_PREFIX=~/.n
+export PATH=$N_PREFIX/bin:~/Library/Python/3.9/bin:$PATH
 
 # p10k
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
