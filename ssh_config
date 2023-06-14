@@ -1,0 +1,17 @@
+Host *
+    AddKeysToAgent yes
+
+Host 10.0.*
+    ServerAliveInterval    60
+    TCPKeepAlive           no 
+    ProxyCommand           ssh -l adam -AqaY -W %h:%p ec2
+    ControlMaster          auto
+    ControlPath            ~/.ssh/mux-%r@%h:52889
+    ControlPersist         8h
+    ForwardAgent           yes
+    ForwardX11             no
+
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/tomtom

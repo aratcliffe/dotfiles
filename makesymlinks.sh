@@ -26,3 +26,5 @@ for file in .[^.]*; do
         ln -sf $dir/$file ~/$file
     fi
 done
+
+ln -sf ssh_config .ssh/config
