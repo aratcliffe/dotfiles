@@ -19,6 +19,8 @@ brew "git-filter-repo"
 brew "github"
 brew "gh"
 brew "n"
+brew "watchman"
+brew "tree"
 
 # Apps
 

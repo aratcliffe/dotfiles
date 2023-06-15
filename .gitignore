@@ -12,5 +12,4 @@ yarn-error.log
 build
 dist
 node_modules
-.npmrc
 *.framerxproj
