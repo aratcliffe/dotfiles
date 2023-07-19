@@ -21,6 +21,8 @@ brew "gh"
 brew "n"
 brew "watchman"
 brew "tree"
+brew "azure-cli"
+brew "libpq"
 
 # Apps
 
