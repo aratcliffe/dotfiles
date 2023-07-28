@@ -24,3 +24,4 @@ iterm_tab_title() {
 }
 add-zsh-hook precmd iterm_tab_title
 
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"

@@ -23,6 +23,7 @@ brew "watchman"
 brew "tree"
 brew "azure-cli"
 brew "libpq"
+brew "http-server"
 
 # Apps
 
