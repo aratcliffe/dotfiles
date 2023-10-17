@@ -24,6 +24,7 @@ brew "tree"
 brew "azure-cli"
 brew "libpq"
 brew "http-server"
+brew "git-lfs"
 
 # Apps
 
@@ -37,3 +38,5 @@ cask "postman"
 cask "visual-studio-code"
 cask "macdown"
 cask "whatsapp"
+cask "firefox"
+cask "zulu11"
