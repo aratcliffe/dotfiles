@@ -6,11 +6,6 @@
 	hooksPath = /Users/adam/.git/hooks
 [merge]
 	tool = opendiff
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
 [alias]
 	co = checkout
 	br = branch
@@ -19,3 +14,5 @@
 	unstage = reset HEAD --
 [mergetool]
 	keepBackup = false
+[pull]
+	ff = only

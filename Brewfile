@@ -25,6 +25,7 @@ brew "azure-cli"
 brew "libpq"
 brew "http-server"
 brew "git-lfs"
+brew "p7zip"
 
 # Apps
 
