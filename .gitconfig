@@ -4,6 +4,7 @@
 [core]
 	sshCommand = "ssh -i ~/.ssh/tomtom"
 	hooksPath = /Users/adam/.git/hooks
+	filemode = false
 [merge]
 	tool = opendiff
 [alias]

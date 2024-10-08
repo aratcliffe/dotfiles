@@ -3,6 +3,7 @@
 tap "d12frosted/emacs-plus"
 tap "homebrew/bundle"
 tap "romkatv/powerlevel10k"
+tap "azure/functions"
 
 # Binaries
 
@@ -26,6 +27,8 @@ brew "libpq"
 brew "http-server"
 brew "git-lfs"
 brew "p7zip"
+brew "cmake"
+brew "azure-functions-core-tools@4"
 
 # Apps
 

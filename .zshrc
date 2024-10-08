@@ -28,3 +28,8 @@ iterm_tab_title() {
   echo -ne "\e]0;${PWD##*/}\a"
 }
 add-zsh-hook precmd iterm_tab_title
+export PATH="/opt/homebrew/opt/conan@1/bin:$PATH"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/adam/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
