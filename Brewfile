@@ -29,6 +29,7 @@ brew "git-lfs"
 brew "p7zip"
 brew "cmake"
 brew "azure-functions-core-tools@4"
+brew "bfg"
 
 # Apps
 

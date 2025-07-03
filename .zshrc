@@ -5,6 +5,7 @@ fi
 # Alias instructions
 alias ll='ls -l'
 alias less='less -i'
+alias treeclean='tree -I "node_modules|dist|build|out|temp|.cache|coverage|.vscode|.idea|.DS_Store|Thumbs.db|*.log|bin|obj"'
 
 # Exported variables
 export EDITOR=emacs
