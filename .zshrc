@@ -10,12 +10,8 @@ alias treeclean='tree -I "node_modules|dist|build|out|temp|.cache|coverage|.vsco
 # Exported variables
 export EDITOR=emacs
 export N_PREFIX=~/.n
-export PATH=$N_PREFIX/bin:~/Library/Python/3.9/bin:/opt/homebrew/opt/libpq/bin:~/Library/Android/sdk/platform-tools:$PATH
+export PATH=$N_PREFIX/bin:~/Library/Python/3.9/bin:/opt/homebrew/opt/libpq/bin:$PATH
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 
 # p10k
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
@@ -30,7 +26,3 @@ iterm_tab_title() {
 }
 add-zsh-hook precmd iterm_tab_title
 export PATH="/opt/homebrew/opt/conan@1/bin:$PATH"
-
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/adam/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
