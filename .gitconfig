@@ -1,19 +1,28 @@
 [user]
-	name = Adam Ratcliffe
-	email = adam.ratcliffe@tomtom.com
+  name = Adam Ratcliffe
+  email = adam.ratcliffe@gmail.com
+
 [core]
-	sshCommand = "ssh -i ~/.ssh/tomtom"
-	hooksPath = /Users/adam/.git/hooks
-	filemode = false
+  editor = emacs 
+
+[init]
+  defaultBranch = main
+
+[push]
+  default = current
+
 [merge]
 	tool = opendiff
+
 [alias]
 	co = checkout
 	br = branch
 	ci = commit
 	st = status
 	unstage = reset HEAD --
+
 [mergetool]
 	keepBackup = false
+	
 [pull]
 	ff = only
