@@ -21,8 +21,11 @@ brew tap homebrew/bundle
 brew tap homebrew/cask-versions
 brew bundle --file ./Brewfile
 
-# Symlink brew-installed Java to the system folder
-ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+# Link Emacs.app into /Applications if not already there
+if [ -d "/opt/homebrew/opt/emacs-plus@29/Emacs.app" ] && [ ! -e "/Applications/Emacs.app" ]; then
+  echo "Linking Emacs.app to /Applications..."
+  ln -s /opt/homebrew/opt/emacs-plus@29/Emacs.app /Applications/Emacs.app
+fi
 
 # Symlinks dotfiles to ~/ 
 source ./makesymlinks.sh

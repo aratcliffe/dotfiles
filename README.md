@@ -11,6 +11,10 @@ A collection of dotfiles used to setup a new Mac, configuring system defaults an
   ```bash
   git clone github.com/AdamRatcliffe-TomTom/dotfiles.git
   ```
-4. Run the `setup.sh` script. You'll be prompted for the adminstrator password if not already signed in as administrator.
-5. Restart your computer.
+4. Install Homebrew:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+5. Run the `setup.sh` script. You'll be prompted for the adminstrator password if not already signed in as administrator.
+6. Restart your computer.
 

@@ -18,7 +18,7 @@ export PATH=$N_PREFIX/bin:$PATH
 # export PATH=~/Library/Python/3.9/bin:$PATH
 
 # Powerlevel10k
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 DISABLE_AUTO_TITLE="true"
