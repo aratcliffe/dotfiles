@@ -24,6 +24,7 @@ brew "git-lfs"
 brew "p7zip"
 brew "cmake"
 brew "bfg"
+brew "yarn"
 
 # Apps
 
