@@ -2,6 +2,10 @@ if [ -f /etc/zshrc ]; then
   . /etc/zshrc
 fi
 
+if [[ "$TERM_PROGRAM" == "vscode" || "$TERM_PROGRAM" == "cursor" ]]; then
+  return
+fi
+
 # Aliases
 alias ll='ls -l'
 alias less='less -i'
